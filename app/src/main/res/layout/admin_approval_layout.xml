@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_userID"
+        android:layout_marginLeft="15dp"
+        android:text="UserID"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/approved_icon"
+        android:layout_marginLeft="330dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:id="@+id/admin_image"
+            android:src="@drawable/t3"
+            android:layout_marginLeft="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/admin_title"
+                android:layout_marginLeft="15dp"
+                android:text="Title"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/admin_description"
+                android:layout_marginLeft="15dp"
+                android:text="Description"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/black"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/admin_link"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="6dp"
+                android:text="Link"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginTop="12dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/admin_play_button"
+            android:text="Play"/>
+
+
+
+        <Button
+            android:layout_marginTop="12dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/admin_delete_button"
+            android:text="Delete"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/admin_approve_button"
+
+            android:text="Approved"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"
+        />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Upload_Actitvity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/image"
+
+                />
+
+            <Button
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:id="@+id/button_upload_image"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/edit"
+                />
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Title"
+            />
+        <EditText
+
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paste your Link here"
+            />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter RDesciption" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/category_button"
+                android:text="Select Catagory"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/category_textview"
+                android:text="select CATAGORY"
+                android:textSize="0.13in"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_button"
+            android:text="Upload"
+            android:layout_marginLeft="150dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
